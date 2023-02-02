@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Tauya2003/four-card-feature-section-FM](https://github.com/Tauya2003/four-card-feature-section-FM)
+- Live Site URL: [https://tauya2003.github.io/four-card-feature-section-FM](https://tauya2003.github.io/four-card-feature-section-FM/))
 
 ## My process
 
