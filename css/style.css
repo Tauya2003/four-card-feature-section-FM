@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: 21rem;
+  }
+  .header .light {
+    font-size: 0.9em;
+  }
+  .header .bold {
+    font-size: 0.9em;
+  }
+  .header p {
+    font-size: 1.1em;
+  }
+  .main {
+    width: 19.75rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 31rem;
+  }
+  .header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .header h1 .light {
+    font-size: 2.3rem;
+  }
+  .header p {
+    font-size: 1.1em;
+  }
+  .main {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+  .main .card {
+    max-height: 14.3rem;
+    width: 20.5rem;
+  }
+  .main .card p {
+    font-size: 0.9rem;
+  }
+  .main .supervisor {
+    grid-row: 1/3;
+  }
+  .main .calculator {
+    grid-column: 3;
+    grid-row: 1/3;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  background-color: hsl(0deg, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 3em;
+  text-align: center;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+.header h1 {
+  margin-bottom: 0.55em;
+  color: hsl(234deg, 12%, 34%);
+}
+.header h1 .light {
+  font-weight: 200;
+}
+.header p {
+  color: hsl(229deg, 6%, 66%);
+}
+
+.main {
+  padding-top: 2rem;
+  display: grid;
+  grid-gap: 2rem;
+}
+.main .card {
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.35em;
+  text-align: left;
+  padding: 1.5rem 2rem;
+}
+.main .card h2 {
+  font-weight: 600;
+  color: hsl(234deg, 12%, 34%);
+  margin-bottom: 0.3em;
+}
+.main .card p {
+  color: hsl(229deg, 6%, 66%);
+  line-height: 1.75;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+  width: 100%;
+}
+.main .card img {
+  float: right;
+}
+.main .supervisor {
+  border-top: 0.2rem solid hsl(180deg, 62%, 55%);
+}
+.main .team-builder {
+  border-top: 0.2rem solid hsl(0deg, 78%, 62%);
+}
+.main .karma {
+  border-top: 0.2rem solid hsl(34deg, 97%, 64%);
+}
+.main .calculator {
+  border-top: 0.2rem solid hsl(212deg, 86%, 64%);
+}
+
+footer {
+  padding: 1rem;
+  margin-top: 5rem;
+  color: hsl(234deg, 12%, 34%);
+  font-weight: 200;
+}
+footer a {
+  text-decoration: none;
+  color: hsl(180deg, 62%, 55%);
+}/*# sourceMappingURL=style.css.map */
